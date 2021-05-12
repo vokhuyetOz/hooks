@@ -1,4 +1,4 @@
-import MMKVStorage, {useMMKVStorage} from 'react-native-mmkv-storage'
+import MMKVStorage , {useMMKVStorage} from 'react-native-mmkv-storage'
 
 const MMKV: MMKVStorage.API = new MMKVStorage.Loader()
   .withInstanceID('mmkv-app-key-hook').initialize()
