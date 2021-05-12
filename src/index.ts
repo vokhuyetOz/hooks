@@ -9,7 +9,6 @@ import {useInteractionManager} from './useInteractionManager'
 import {useDeviceOrientation} from './useDeviceOrientation'
 import {useLayout} from './useLayout'
 import {useImageDimensions} from './useImageDimensions'
-import {useMMKV} from './useMMKV'
 import {useForceUpdate} from './useForceUpdate'
 
 export {
@@ -26,5 +25,4 @@ export {
   useLayout,
   useImageDimensions,
   useForceUpdate,
-  useMMKV,
 }
