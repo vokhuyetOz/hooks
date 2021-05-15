@@ -8,6 +8,8 @@ import {useKeyboard} from './useKeyboard'
 import {useInteractionManager} from './useInteractionManager'
 import {useDeviceOrientation} from './useDeviceOrientation'
 import {useLayout} from './useLayout'
+import {useTextLayout} from './useTextLayout'
+
 import {useImageDimensions} from './useImageDimensions'
 import {useForceUpdate} from './useForceUpdate'
 
@@ -25,4 +27,5 @@ export {
   useLayout,
   useImageDimensions,
   useForceUpdate,
+  useTextLayout,
 }
