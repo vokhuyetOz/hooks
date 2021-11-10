@@ -1,7 +1,8 @@
 import {useState} from 'react'
-import {CameraRoll, GetPhotosParamType, GetPhotosReturnType} from 'react-native'
+import CameraRoll,{GetPhotosParams,PhotoIdentifiersPage} from '@react-native-community/cameraroll'
 
-const initialState: GetPhotosReturnType = {
+
+const initialState: PhotoIdentifiersPage = {
   edges: [],
   page_info: {
     end_cursor: '',
@@ -10,7 +11,7 @@ const initialState: GetPhotosReturnType = {
   },
 }
 
-const defaultConfig: GetPhotosParamType = {
+const defaultConfig: GetPhotosParams = {
   first: 20,
   groupTypes: 'All',
 }

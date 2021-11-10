@@ -15,9 +15,10 @@
     "release-canary": "auto canary"
   },
   "peerDependencies": {
+    "@react-native-community/cameraroll": "*",
     "react": ">=16.8.0",
     "react-native": ">=0.59",
-    "react-native-mmkv-storage":">=0.5.5"
+    "react-native-mmkv-storage": ">=0.5.5"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "9.28.3",
