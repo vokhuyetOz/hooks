@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import CameraRoll,{GetPhotosParams,PhotoIdentifiersPage} from '@react-native-community/cameraroll'
+import CameraRoll,{GetPhotosParams,PhotoIdentifiersPage} from '@react-native-camera-roll/camera-roll'
 
 
 const initialState: PhotoIdentifiersPage = {
